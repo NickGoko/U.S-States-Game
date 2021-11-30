@@ -11,9 +11,6 @@ screen.addshape(image)
 turtle.shape(image)
 
 data = pandas.read_csv("50_states.csv")
-# print(data[data['state'] == "Alaska"])  # state row
-# state_row = data[data['state'] == "Alaska"]
-# print(state_row.x)
 states_column = (data["state"])
 all_states = states_column.to_list()
 # print(all_states)
